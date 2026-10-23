@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding-top: 75px;
+    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.btn-primary {
+    background-color: #14213d;
+    border-color: #14213d;
+}
+
+.btn-primary:hover {
+    background-color: #1d3557;
+    border-color: #1d3557;
+}
